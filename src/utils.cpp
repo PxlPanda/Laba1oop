@@ -10,3 +10,6 @@ double subs(double a, double b) noexcept{
 double mult(double a, double b) noexcept{
     return a*b;
 }
+int square(int a) noexcept{
+    return a*a;
+}
