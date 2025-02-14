@@ -1,0 +1,10 @@
+^C:\USERS\777\.VSCODE\LABA1OOP\BUILD\CMAKEFILES\138508B6F9B6897682930CA6DFED427F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/777/.vscode/Laba1oop -BC:/Users/777/.vscode/Laba1oop/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/777/.vscode/Laba1oop/build/Laba1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
