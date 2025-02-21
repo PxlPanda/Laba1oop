@@ -1,8 +1,12 @@
 **laba1oop**
 
-# Первоначально решил разбораться с github CLI, создал репозиторий через консоль. `gh repo create laba1oop --public`
+# отчет по первой лабе
 
-## создал _README.md_ `echo "#laba1oop" > README.md`
+## Первоначально решил разбораться с github CLI, создал репозиторий через консоль. 
+`gh repo create laba1oop --public`
+
+## создал _README.md_
+`echo "#laba1oop" > README.md`
 
 ## написал основной код, закоммитил, забыл .gitignore для файлов сборки, создал его, закоммитил еще раз.
 
@@ -14,7 +18,11 @@
 
 **История коммитов**
 >9acbe2c (HEAD -> main, origin/main) Merge branch 'feature-utils'
+
 >0203dd4 fx: Update main output message in main branch
+
 >19ff90f (origin/feature-utils, feature-utils) feat: Add squaring function to>utils
+
 >9ebcfb9 Initial commit: CMake project setup + gitignore
+
 >961da41 Initial commit: CMake project setup
